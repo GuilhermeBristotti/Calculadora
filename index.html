@@ -1,6 +1,8 @@
 <html>
 	<head>
 		<title>Calculadora</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
 
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
@@ -44,6 +46,34 @@
         border: solid 1px #000; 
         box-shadow: 1px 1px 1px #000;
       }
+
+      @media (max-width: 576px) {
+  .calculadora {
+    padding: 15px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .btn {
+    width: 22vw;
+    height: 50px;
+    margin: 4px;
+    font-size: 18px;
+  }
+
+  .clear {
+    width: 46vw;
+  }
+
+  .enter {
+    height: 104px;
+  }
+
+  .resultado {
+    font-size: 24px;
+  }
+}
+
 
     </style>
     
